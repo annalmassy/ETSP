@@ -9,7 +9,7 @@ import pandas as pd
 import plotly.express as px
 
 # Set up OpenAI client
-client = OpenAI(api_key="")
+client = OpenAI(api_key = os.getenv("OPENAI_API_KEY"))
 # Set the title for the Streamlit app
 st.title("Educational NLP Learning Chatbot")
 
