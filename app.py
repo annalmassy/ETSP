@@ -62,7 +62,7 @@ for message in prompt:
             st.write(message["content"])
 
 # Get the user's question using Streamlit's chat input
-question = st._input("Ask anything")
+question = st.chat_input("Ask anything")
 
 # Checkboxes to select which models to use
 use_rag = st.checkbox("Use RAG (GPT)")
