@@ -57,7 +57,7 @@ def create_educational_vectordb(files, filenames):
             if not vectordb:
                 st.error("Failed to create vector database.")
             return vectordb, flagged_files
-        except Exception as e:s
+        except Exception as e:
             st.error(f"Error creating vector database: {e}")
             return None, []
 
