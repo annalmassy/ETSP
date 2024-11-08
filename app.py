@@ -32,6 +32,7 @@ import torch.nn.functional as F
 from rouge import Rouge
 import pandas as pd
 import plotly.express as px
+from test import  conduct_tests
 
 # Set up OpenAI client with API key from environment variable
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -95,6 +96,9 @@ prompt_template = "You are an NLP expert. Answer questions clearly and concisely
 # Initialize chat history in session state if not already present
 if "chat_history" not in st.session_state:
     st.session_state["chat_history"] = []
+
+# Run Test
+#conduct_tests(vectordb, use_rag, prompt_template, client)
 
 # Chat input for the user’s question
 user_input = st.chat_input("Ask anything about NLP:")
