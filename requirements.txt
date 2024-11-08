@@ -1,8 +1,7 @@
-streamlit==1.39.0
-torch==2.0.0
+streamlit>=1.39.0
 pandas==1.5.3
 plotly==5.10.0
-faiss-cpu==1.7.3
+chromadb
 PyPDF2==3.0.0
 rouge-score==0.1.2
 openai
