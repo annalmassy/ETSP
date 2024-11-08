@@ -10,7 +10,6 @@ required_packages = [
     "langchain_openai",  # New package import for updated OpenAIEmbeddings
     "pandas",
     "plotly",
-    "torch",
 ]
 
 # Install missing packages
