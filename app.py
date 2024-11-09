@@ -1,5 +1,12 @@
+import sys
+import pysqlite3 as sqlite3
+
+# This line ensures that 'sqlite3' imports in other packages use 'pysqlite3'
+sys.modules["sqlite3"] = sqlite3
+
 import subprocess
 import sys
+
 
 # List of required packages
 required_packages = [
