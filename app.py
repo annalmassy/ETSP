@@ -26,8 +26,6 @@ import os
 from openai import OpenAI
 import openai
 from data_processing import get_chroma_index_for_pdf  # Updated for Chroma usage
-import torch
-import torch.nn.functional as F
 from rouge import Rouge
 import pandas as pd
 import plotly.express as px
