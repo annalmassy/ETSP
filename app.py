@@ -6,6 +6,9 @@ sys.modules["sqlite3"] = sqlite3
 
 import subprocess
 import sys
+import pydantic
+pydantic.VERSION = '1.10.7'
+
 
 
 # List of required packages
