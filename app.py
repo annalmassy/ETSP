@@ -6,9 +6,7 @@ sys.modules["sqlite3"] = sqlite3
 
 import subprocess
 import sys
-import pydantic
-pydantic.VERSION = '1.10.7'
-
+from pydantic import BaseModel, root_validator
 
 
 # List of required packages

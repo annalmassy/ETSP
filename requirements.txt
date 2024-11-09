@@ -15,4 +15,4 @@ pypdf==3.8.1
 langchain_openai
 pysqlite3-binary
 pydantic==1.10.7
-pydantic.v1
+
