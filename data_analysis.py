@@ -14,8 +14,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from wordcloud import STOPWORDS
 
-# Download the Basel Framework document
-url = "https://www.bis.org/baselframework/BaselFramework.pdf"
+url=
 response = requests.get(url)
 f = BytesIO(response.content)
 
@@ -36,7 +35,7 @@ pos_tags = pos_tag(tokens)
 # Named Entity Recognition
 namedEnt = ne_chunk(pos_tags)
 
-keywords = ['probability', 'default', 'loss', 'downturn', 'discounting', 'cashflow', 'data', 'credit', 'risk', 'requirements']
+keywords = []
 
 # Get POS tags for keywords
 keywords_pos_tags = nltk.pos_tag(keywords)

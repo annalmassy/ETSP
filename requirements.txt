@@ -1,8 +1,8 @@
-streamlit>=1.39.0
+streamlit==1.39.0
+torch==2.0.0
 pandas==1.5.3
-numpy
 plotly==5.10.0
-chromadb
+faiss-cpu==1.7.3
 PyPDF2==3.0.0
 rouge-score==0.1.2
 openai
@@ -10,9 +10,8 @@ rouge
 langchain
 requests==2.31.0
 nltk==3.8.1
+matplotlib==3.7.1
+wordcloud==1.8.2.2
 networkx==2.8.8
+scikit-learn==1.2.2
 pypdf==3.8.1
-langchain_openai
-pysqlite3-binary
-pydantic==1.10.7
-
